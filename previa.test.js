@@ -32,7 +32,7 @@ describe("verificarParOuImpar", () => {
   });
 });
 
-// Teste para a função contarCaracterA
+// // Teste para a função contarCaracterA
 describe("contarCaracter", () => {
   it("deve contar a quantidade de caracteres na string", () => {
     expect(contarCaracter("Abracadabra", "a")).toBe(5);
@@ -42,7 +42,7 @@ describe("contarCaracter", () => {
   });
 });
 
-// Teste para a função atualizarPropriedade
+// // // Teste para a função atualizarPropriedade
 describe("atualizarPropriedade", () => {
   it("deve atualizar uma propriedade existente", () => {
     const objeto = { nome: "João", idade: 25 };
